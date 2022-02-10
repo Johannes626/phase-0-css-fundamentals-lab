@@ -1,5 +1,37 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+figure img {
+  display: block;
+  margin: auto;
+}
+a#navbar { /*adds padding and color to elements within navigation bar*/
+  padding-left: 10px; 
+  padding-right: 10px;
+  background-color: bisque;
+}
+nav#navbar1 { /*centers navigation bar*/
+  text-align: center;
+}
+#featured-property {
+  text-align: center;
+  font-size: 14px;
+}
+p.caption {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  margin-top: 25px;
+}
+div {
+  float: left;
+  background-color: bisque;
+  text-align: center;
+  width: 25%;
+  margin-top: 25px;
 }
